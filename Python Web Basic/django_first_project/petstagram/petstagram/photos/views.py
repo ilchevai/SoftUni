@@ -7,11 +7,11 @@ def add_photos(request):
     return render(request, template_name='photos/photo-add-page.html')
 
 
-def details_photo(request):
+def details_photo(request, pk):
     return render(request, template_name='photos/photo-details-page.html')
 
 
-def edit_photo(request):
+def edit_photo(request, pk):
     return render(request, template_name='photos/photo-edit-page.html')
 
 
